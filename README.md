@@ -1,6 +1,8 @@
 # deanqwq233-plugin
 
-deanqwq233-plugin for yunzai-bot
+deanqwq233-plugin for Yunzai-Bot
+
+水稻插件为云崽机器人提供了一些有意思的小功能
 
 
 ## 使用gitee
