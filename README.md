@@ -1,6 +1,6 @@
 # deanqwq233-plugin
 
-deanqwq233-plugin(水稻插件) 为云崽机器人提供了一些有意思的小功能
+deanqwq233-plugin (水稻插件) 为云崽机器人提供了一些有意思的小功能
 
 
 ## 使用gitee
