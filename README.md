@@ -14,4 +14,4 @@ git clone https://github.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq2
 git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq233-plugin/
 ```
 
-[文档(多半寄了)](https://wlbncz.asia/)
+[插件文档 (多半寄了) ](https://wlbncz.asia/)
