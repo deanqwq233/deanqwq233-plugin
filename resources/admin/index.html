@@ -1,0 +1,37 @@
+{{extend defaultLayout}}
+{{block 'css'}}
+<link rel="stylesheet" type="text/css" href="{{_res_path}}/admin/index.css"/>
+{{/block}}
+{{block 'main'}}
+
+<div class="info_box">
+  <div class="head-box type{{bgType}}">
+    <div class="label">水稻设置面板</div>
+    <div class="title">#水稻设置</div>
+  </div>
+</div>
+<div class="cfg-box">
+  <div class="cfg-group">功能设置</div>
+  <ul class="cfg-ul">
+
+    <li class="cfg-li">
+      <div class="cfg-line">
+        水稻天气作为默认天气
+        <span class="cfg-hint">#水稻设置天气 + 开启/关闭 </span>
+        {{@weather}}
+      </div>
+      <div class="cfg-desc">如有多个天气插件，开启后将使用水稻天气作为的默认天气</div>
+    </li>
+
+    <li class="cfg-li">
+      <div class="cfg-line">
+        卡片天气
+        <span class="cfg-hint">#水稻设置6 + 开启/关闭 </span>
+        {{@follow6}}
+      </div>
+      <div class="cfg-desc">要不要继续接几位呢</div>
+    </li>
+	
+  </ul>
+</div>
+{{/block}}
