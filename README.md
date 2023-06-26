@@ -23,3 +23,6 @@ git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq23
 
 ![Issues](https://img.shields.io/github/issues/deanqwq233/deanqwq233-plugin.svg)
 ![ClosedIssues](https://img.shields.io/github/issues-closed/deanqwq233/deanqwq233-plugin.svg)
+
+![Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
+![VS](https://img.shields.io/badge/Made%20with-Visual%20Studio%20-1f425f.svg)
