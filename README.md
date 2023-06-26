@@ -15,3 +15,5 @@ git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq23
 ```
 
 [插件文档 (多半寄了) ](https://wlbncz.asia/)
+
+![Stars](https://img.shields.io/github/stars/deanqwq233/deanqwq233-plugin.svg)
