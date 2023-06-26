@@ -17,5 +17,6 @@ git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq23
 [插件文档 (多半寄了) ](https://wlbncz.asia/)
 
 ![Stars](https://img.shields.io/github/stars/deanqwq233/deanqwq233-plugin.svg)
+![Watchers](https://img.shields.io/github/watchers/deanqwq233/deanqwq233-plugin.svg)
 ![Last](https://img.shields.io/github/last-commit/deanqwq233/deanqwq233-plugin.svg)
 ![License](https://img.shields.io/github/license/deanqwq233/deanqwq233-plugin.svg)
