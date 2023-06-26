@@ -20,3 +20,6 @@ git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq23
 ![Watchers](https://img.shields.io/github/watchers/deanqwq233/deanqwq233-plugin.svg)
 ![Last](https://img.shields.io/github/last-commit/deanqwq233/deanqwq233-plugin.svg)
 ![License](https://img.shields.io/github/license/deanqwq233/deanqwq233-plugin.svg)
+
+![Issues](https://img.shields.io/github/issues/deanqwq233/deanqwq233-plugin.svg)
+![ClosedIssues](https://img.shields.io/github/issues-closed/deanqwq233/deanqwq233-plugin.svg)
