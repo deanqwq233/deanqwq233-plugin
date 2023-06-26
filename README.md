@@ -19,8 +19,6 @@ git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq23
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d107944d-6f03-4629-a572-425a12778702/deploy-status)](https://app.netlify.com/sites/storied-mousse-8026f6/deploys)
 
-
-
 ![Stars](https://img.shields.io/github/stars/deanqwq233/deanqwq233-plugin.svg)
 ![Watchers](https://img.shields.io/github/watchers/deanqwq233/deanqwq233-plugin.svg)
 ![Last](https://img.shields.io/github/last-commit/deanqwq233/deanqwq233-plugin.svg)
