@@ -15,7 +15,7 @@ git clone https://github.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq2
 git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq233-plugin/
 ```
 
-[插件文档](https://wlbncz.asia/)
+[插件文档](https://deanqwq233-plugin.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/48a605ab-5f90-4e1d-8a3b-156203814dc0/deploy-status)](https://app.netlify.com/sites/deanqwq233-plugin/deploys)
 
