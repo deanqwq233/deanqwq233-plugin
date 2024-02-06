@@ -1,16 +1,15 @@
-import plugin from '../../../lib/plugins/plugin.js'
+﻿import plugin from '../../../lib/plugins/plugin.js'
 import { execSync } from 'child_process'
 import { update } from '../../other/update.js'
-import { Version, Common, Plugin_Name } from '../components/index.js'
+import { Plugin_Name } from '../components/index.js'
 
-export class xiaofei_update extends plugin {
+export class xiaoyu_update extends plugin {
 	constructor() {
 		super({
 			/** 功能名称 */
-			name: '水稻更新',
+			name: '水稻插件更新',
 			/** 功能描述 */
-			dsc: '插件更新',
-			/** https://oicqjs.github.io/oicq/#events */
+			dsc: '调用Yunzai自带更新模块进行插件更新',
 			event: 'message',
 			/** 优先级，数字越小等级越高 */
 			priority: 2000,
@@ -21,7 +20,7 @@ export class xiaofei_update extends plugin {
 					/** 执行方法 */
 					fnc: 'update_plugin',
 					permission: 'master'
-				},
+				}
 			]
 		});
 	}
@@ -42,11 +41,4 @@ export class xiaofei_update extends plugin {
 		}
 		return true;
 	}
-
-async function versionInfo(e) {
-	return await Common.render('help/version-info', {
-		currentVersion: Version.ver,
-		changelogs: Version.logs,
-		elem: 'cryo'
-	}, { e, scale: 1.2 })
 }
