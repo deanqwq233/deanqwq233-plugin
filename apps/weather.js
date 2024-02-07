@@ -49,14 +49,15 @@ async function weather(e, search) {
 	if (reg[4]) { city = reg[4]; search = search.replace('市', ' '); }
 	if (reg[6]) { district = reg[6]; search = search.replace('区', ' '); }
 
-		const browser = await deanqwq233_plugin.puppeteer.browserInit();
+	try {
+        const browser = await puppeteer.browserInit();
 		const page = await browser.newPage();
 		await page.setViewport({
 			width: 1920,
 			height: 1080
 		});
 		
-		let url = `https://msn.cn/zh-cn/weather/forecast/in-`${city}${district}
+		let url = `https://msn.cn/zh-cn/weather/forecast/in-${city}/${district}`;
 		
 		await page.goto(url);//MSN天气
 
@@ -69,25 +70,25 @@ async function weather(e, search) {
 
 		let body = await page.$('body');
 		buff = await body.screenshot({
-			type: 'jpeg',
-			omitBackground: false,
-			quality: 100,
-		});
+            type: 'jpeg',
+            omitBackground: false,
+            quality: 100,
+        });
 
-		page.close().catch((err) => logger.error(err));
+        page.close().catch((err) => logger.error(err));
 
-		deanqwq233_plugin.puppeteer.renderNum++;
-		deanqwq233_plugin.puppeteer.restart();
-	} catch (err) {
-		logger.error(err);
-	}
+        puppeteer.renderNum++;
+        puppeteer.restart();
+    } catch (err) {
+        logger.error(err);
+    }
 
-	if (!buff) {
-		if (e.msg.includes('#')) await e.reply('水稻天气截图失败……');
-		return false;
-	}
+    if (!buff) {
+        if (e.msg.includes('#')) await e.reply('水稻天气截图失败……');
+        return false;
+    }
 
-	await e.reply(segment.image(buff));
+    await e.reply(segment.image(buff));
 
-	return true;
+    return true;
 }
