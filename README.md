@@ -15,7 +15,7 @@ git clone https://github.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq2
 git clone https://gitee.com/deanqwq233/deanqwq233-plugin.git ./plugins/deanqwq233-plugin/
 ```
 
-[插件文档 (多半寄了) ](https://wlbncz.asia/)
+[插件文档 (多半寄了) ](https://plugin.shuidaorice.top/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d107944d-6f03-4629-a572-425a12778702/deploy-status)](https://app.netlify.com/sites/storied-mousse-8026f6/deploys)
 
